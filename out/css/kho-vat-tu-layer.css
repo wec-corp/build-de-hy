@@ -1,0 +1,50 @@
+/* Styles for Kho Vat Tu Layer */
+
+/* Custom tooltip styling for kho vat tu */
+.kho-vat-tu-label {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  padding: 3px 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* Hide tooltips at lower zoom levels */
+.kho-vat-tu-hidden-tooltip {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Custom popup button for kho vat tu */
+.popup-btn {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: background-color 0.3s;
+}
+
+.popup-btn:hover {
+  background-color: #1565c0;
+}
+
+.popup-btn-info {
+  background-color: #1976d2;
+}
+
+.popup-btn-edit {
+  background-color: #ff9800;
+}
+
+.popup-btn-delete {
+  background-color: #f44336;
+}

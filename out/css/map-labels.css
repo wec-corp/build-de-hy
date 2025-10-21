@@ -1,0 +1,292 @@
+/* Định dạng cho tất cả các nhãn trên bản đồ */
+.de-tooltip {
+  color: #ffff00 !important; /* Màu vàng để phân biệt với tên xã */
+  font-family: 'Roboto', 'Arial', sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+  font-size: 11px !important;
+  white-space: nowrap !important;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000,
+    0 0 4px rgba(0, 0, 0, 0.7) !important;
+  pointer-events: none !important; /* Cho phép click qua tooltip */
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  z-index: 700 !important; /* Để hiển thị trên lớp ranh giới */
+}
+
+/* Loại bỏ mũi tên mặc định của tooltip đê */
+.leaflet-tooltip.de-tooltip:before {
+  display: none !important;
+}
+
+/* Điều chỉnh kích thước theo zoom level */
+.leaflet-zoom-animated .de-tooltip {
+  backface-visibility: hidden;
+}
+
+/* Style để ẩn tooltip hoàn toàn khi zoom <= 11 (bao gồm zoom=10) */
+.de-hidden-tooltip {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  display: none !important;
+  font-size: 0px !important;
+  pointer-events: none !important;
+}
+
+/* Đảm bảo tooltip tuyến đê luôn có z-index cao */
+.leaflet-tooltip.de-tooltip {
+  z-index: 800 !important;
+  text-transform: uppercase !important; /* Thêm uppercase cho đồng bộ với xã */
+}
+
+/* Định dạng cho Maps */
+.map-label {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  pointer-events: none !important;
+}
+
+/* Định dạng riêng cho nhãn xã phường */
+.phuong-xa-tooltip {
+  color: #ffffff !important;
+  font-family: 'Roboto', 'Arial', sans-serif !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.02em !important;
+  text-transform: capitalize !important;
+  font-size: 11px !important;
+  white-space: nowrap !important;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000,
+    0 0 4px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Điều chỉnh kích thước theo zoom level */
+.leaflet-zoom-animated .phuong-xa-tooltip {
+  backface-visibility: hidden;
+}
+
+/* Loại bỏ mũi tên mặc định của tooltip */
+.leaflet-tooltip.phuong-xa-tooltip:before {
+  display: none !important;
+}
+
+/* Cải thiện độ phân biệt của nhãn */
+.leaflet-tooltip-pane {
+  z-index: 650 !important;
+}
+
+/* Tạo lớp Z-index mới cho nhãn địa lý */
+.leaflet-map-pane svg,
+.leaflet-map-pane canvas {
+  z-index: 100;
+}
+
+.leaflet-overlay-pane {
+  z-index: 400;
+}
+
+/* Định dạng riêng cho nhãn tuyến đê */
+.de-tooltip {
+  color: #ffff00 !important; /* Màu vàng để phân biệt với tên xã */
+  font-family: 'Roboto', 'Arial', sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+  font-size: 11px !important;
+  white-space: nowrap !important;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000,
+    0 0 4px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Loại bỏ mũi tên mặc định của tooltip đê */
+.leaflet-tooltip.de-tooltip:before {
+  display: none !important;
+}
+
+.map-label {
+  color: #ffffff !important;
+  font-family: 'Roboto', 'Arial', sans-serif !important;
+  font-weight: 700 !important; /* Tăng độ đậm */
+  font-size: 13px !important; /* Tăng kích thước */
+  white-space: nowrap !important;
+  text-shadow: -1.5px -1.5px 0 #000000, 1.5px -1.5px 0 #000000, -1.5px 1.5px 0 #000000, 1.5px 1.5px 0 #000000,
+    0 0 6px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5) !important; /* Tăng hiệu ứng shadow */
+  text-align: center !important;
+  background: transparent !important; /* Không có nền */
+  border: none !important; /* Không có viền */
+  box-shadow: none !important; /* Không có box shadow */
+  padding: 0 !important; /* Không có padding */
+  pointer-events: none !important;
+  z-index: 1000 !important; /* Z-index cao để hiển thị trên các lớp khác */
+}
+
+/* Class đặc biệt cho nhãn tuyến đê với hiệu ứng highlight */
+.tuyen-de-label {
+  color: #ffff00 !important; /* Màu vàng nổi bật */
+  font-weight: 700 !important;
+  z-index: 1000 !important; /* Đảm bảo hiển thị trên cùng */
+  background: transparent !important; /* Đảm bảo không có nền */
+  border: none !important; /* Không có viền */
+  animation: text-glow 2s infinite alternate ease-in-out;
+}
+
+/* Loại bỏ mũi tên tooltip để hiển thị gọn hơn */
+.leaflet-tooltip.tuyen-de-label::before {
+  display: none !important;
+}
+
+/* Class cho DivIcon chứa label xoay */
+.tuyen-de-label .leaflet-div-icon {
+  background: transparent !important;
+  border: none !important;
+  text-align: center;
+  line-height: 1;
+}
+
+/* Style cho span chứa text bên trong DivIcon */
+.tuyen-de-label span {
+  color: #ffff00 !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  text-shadow: -1.5px -1.5px 0 #000000, 1.5px -1.5px 0 #000000, -1.5px 1.5px 0 #000000, 1.5px 1.5px 0 #000000,
+    0 0 6px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5) !important;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+/* Hiệu ứng glow text thay vì box shadow */
+@keyframes text-glow {
+  0% {
+    text-shadow: -1.5px -1.5px 0 #000000, 1.5px -1.5px 0 #000000, -1.5px 1.5px 0 #000000, 1.5px 1.5px 0 #000000,
+      0 0 6px rgba(0, 119, 223, 0.6);
+  }
+  100% {
+    text-shadow: -1.5px -1.5px 0 #000000, 1.5px -1.5px 0 #000000, -1.5px 1.5px 0 #000000, 1.5px 1.5px 0 #000000,
+      0 0 10px rgba(0, 119, 223, 1);
+  }
+}
+
+/* Highlight tooltip khi hover vào đoạn đê - chỉ thay đổi text */
+.highlight-tooltip {
+  z-index: 2000 !important;
+  background: transparent !important; /* Không có nền */
+  border: none !important; /* Không có viền */
+  box-shadow: none !important; /* Không có box shadow */
+  color: #ffffff !important; /* Màu trắng nổi bật */
+  font-weight: 800 !important;
+  text-shadow: -1.5px -1.5px 0 #000000, 1.5px -1.5px 0 #000000, -1.5px 1.5px 0 #000000, 1.5px 1.5px 0 #000000,
+    0 0 8px rgba(255, 255, 0, 0.9) !important; /* Text glow mạnh hơn */
+  transition: all 0.3s ease !important;
+}
+
+/* Đảm bảo tooltip nằm trên các đối tượng khác */
+.leaflet-tooltip.tuyen-de-label {
+  z-index: 1000 !important;
+}
+
+/* Tùy chỉnh hiển thị ranh giới xã */
+.commune-boundary {
+  stroke: #0077df;
+  stroke-width: 1px;
+  stroke-dasharray: 2, 4;
+  stroke-linecap: round;
+  fill-opacity: 0.01;
+  pointer-events: auto;
+  transition: stroke-opacity 0.2s ease, stroke-width 0.2s ease;
+}
+
+.commune-boundary:hover {
+  stroke-opacity: 0.8;
+  stroke-width: 1.5px;
+}
+
+/* Hiệu ứng chuyển đổi khi zoom */
+.leaflet-zoom-anim .leaflet-zoom-animated {
+  transition-property: stroke-width, opacity;
+  transition-duration: 0.25s;
+}
+
+/* Điều chỉnh nhãn cho phù hợp với màn hình nhỏ */
+@media (max-width: 768px) {
+  .phuong-xa-tooltip {
+    font-size: 9px !important;
+  }
+}
+
+/* Hiệu ứng khi zoom */
+.leaflet-fade-anim .leaflet-popup,
+.leaflet-fade-anim .leaflet-tooltip {
+  transition-property: opacity !important;
+  transition-duration: 0.2s !important;
+}
+
+/* Thêm luật CSS cực mạnh để đảm bảo tooltips bị ẩn hoàn toàn khi có class hidden */
+.leaflet-tooltip.de-hidden-tooltip,
+.leaflet-tooltip.phuong-xa-tooltip.de-hidden-tooltip,
+.leaflet-tooltip.tuyen-de-label.de-hidden-tooltip,
+.leaflet-tooltip.map-label.de-hidden-tooltip {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  pointer-events: none !important;
+  z-index: -9999 !important;
+}
+
+/* Tăng độ ưu tiên cho các tooltip tuyến đê */
+.leaflet-tooltip.tuyen-de-label {
+  z-index: 1000 !important;
+  pointer-events: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.tuyen-de-label {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  padding: 3px 6px;
+  font-weight: 500;
+  white-space: nowrap;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}
+
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+  display: none !important;
+}
+
+.tuyen-de-label.highlight-tooltip {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  z-index: 9999 !important;
+}
+
+.leaflet-tooltip-pane {
+  z-index: 700;
+}
+
+.location-marker-inner {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #0077ff;
+  box-shadow: 0 0 12px 4px #0077ff88;
+  border: 2px solid #fff;
+  margin: 4px auto;
+}
+.custom-location-marker {
+  filter: drop-shadow(0 0 6px #0077ff88);
+}
