@@ -589,39 +589,117 @@
     margin: 0 !important;
   }
 }
-
-/* style popup show mua mm */
-.tram-popup-container {
-  margin-bottom: 30px !important;
-}
-
-.tram-popup-content {
-  padding: 6px 8px;
-}
-.tram-rainfall-value {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-weight: 700;
-  font-size: 18px;
-  color: #0073b6;
-  margin-bottom: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1.2;
-}
-.tram-rainfall-unit {
-  font-weight: 500;
+/* ===== Tooltip nền trắng – viền & chữ theo cấp mưa ===== */
+.tram-tooltip-box {
+  position: relative;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 6px 10px;
   font-size: 12px;
-  color: #666;
-  margin-left: 2px;
-}
-.tram-rainfall-time {
+  line-height: 1.25;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  border: 2px solid; /* viền động theo class */
+  pointer-events: none;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+/* ===== MŨI TÊN – CÓ VIỀN RÕ ===== */
+.tram-tooltip-box::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -12px; /* viền ở dưới */
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 12px solid; /* MÀU VIỀN – theo cấp mưa */
+}
+
+.tram-tooltip-box::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px; /* nền đè lên trên */
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #ffffff; /* NỀN TRẮNG */
+}
+
+/* ===== CẤP MƯA NHẸ (XANH) ===== */
+.tram-tooltip.rain-low {
+  color: #1565c0;
+}
+.tram-tooltip-box.rain-low {
+  border-color: #1565c0;
+}
+.tram-tooltip-box.rain-low::before {
+  border-top-color: #1565c0;
+}
+.tram-tooltip.rain-low .tram-tooltip-value {
+  color: #0d47a1;
+}
+
+/* ===== CẤP MƯA TRUNG BÌNH (CAM) ===== */
+.tram-tooltip.rain-medium {
+  color: #ef6c00;
+}
+.tram-tooltip-box.rain-medium {
+  border-color: #ef6c00;
+}
+.tram-tooltip-box.rain-medium::before {
+  border-top-color: #ef6c00;
+}
+.tram-tooltip.rain-medium .tram-tooltip-value {
+  color: #e65100;
+}
+
+/* ===== CẤP MƯA LỚN (ĐỎ) ===== */
+.tram-tooltip.rain-high {
+  color: #c62828;
+}
+.tram-tooltip-box.rain-high {
+  border-color: #c62828;
+}
+.tram-tooltip-box.rain-high::before {
+  border-top-color: #c62828;
+}
+.tram-tooltip.rain-high .tram-tooltip-value {
+  color: #b71c1c;
+}
+
+/* ===== Nội dung ===== */
+.tram-tooltip-title {
+  font-weight: 600;
   font-size: 12px;
-  color: #666;
+  margin-bottom: 2px;
   text-align: center;
+}
+
+.tram-tooltip-value {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.tram-tooltip-unit {
+  font-size: 11px;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.tram-tooltip-time {
+  font-size: 10px;
+  opacity: 0.75;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.TramDoMua-hidden-tooltip {
+  display: none !important;
 }
