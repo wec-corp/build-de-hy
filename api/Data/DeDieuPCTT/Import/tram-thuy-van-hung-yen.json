@@ -1,0 +1,122 @@
+[
+  {
+    "Id": "3fc51658-cf51-5b12-b87a-c136adb361d9",
+    "MaTram": "190",
+    "TenTram": "Trà Linh",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.51666700635776, 20.533332996595576]}",
+    "Latitude": 20.533332996595576,
+    "Longitude": 106.51666700635776,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"Trµ Linh\", \"descriptio\": \"Trµ Linh    <br>       <br>   SHAPE   Multipoint    <br>   id   190    <br>   Ten   Trµ Linh    <br>   Toa_DoX   106.52    <br>   Toa_DoY   20.53\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "7b4e8ae7-0bd4-5b31-8482-31a0a63f7a61",
+    "MaTram": "189",
+    "TenTram": "Cống Hệ",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.45000000646117, 20.599999996545456]}",
+    "Latitude": 20.599999996545456,
+    "Longitude": 106.45000000646117,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"Cèng HÖ\", \"descriptio\": \"Cèng HÖ    <br>       <br>   SHAPE   Multipoint    <br>   id   189    <br>   Ten   Cèng HÖ    <br>   Toa_DoX   106.45    <br>   Toa_DoY   20.6\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "b2e2c60e-e701-5549-9011-fb15fe4709dd",
+    "MaTram": "188",
+    "TenTram": "Vân Cù",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.46666700643533, 20.58333299655799]}",
+    "Latitude": 20.58333299655799,
+    "Longitude": 106.46666700643533,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"V©n Cï\", \"descriptio\": \"V©n Cï    <br>       <br>   SHAPE   Multipoint    <br>   id   188    <br>   Ten   V©n Cï    <br>   Toa_DoX   106.47    <br>   Toa_DoY   20.58\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "3b665891-d5c5-5cfe-ad22-38017442de42",
+    "MaTram": "183",
+    "TenTram": "Định Cư",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.53333300629156, 20.44999999662743]}",
+    "Latitude": 20.44999999662743,
+    "Longitude": 106.53333300629156,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"§Þnh C­\", \"descriptio\": \"§Þnh C    <br>       <br>   SHAPE   Multipoint    <br>   id   183    <br>   Ten   §Þnh C    <br>   Toa_DoX   106.53    <br>   Toa_DoY   20.45\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "c5826a1e-79b4-503c-97a4-650d7ffe0812",
+    "MaTram": "182",
+    "TenTram": "Thái Bình",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.33333300648059, 20.449999996534608]}",
+    "Latitude": 20.449999996534608,
+    "Longitude": 106.33333300648059,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"Th¸i B×nh\", \"descriptio\": \"Th¸i B×nh    <br>       <br>   SHAPE   Multipoint    <br>   id   182    <br>   Ten   Th¸i B×nh    <br>   Toa_DoX   106.33    <br>   Toa_DoY   20.45\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "cace5016-a783-511e-ae06-2cd4f173f545",
+    "MaTram": "181",
+    "TenTram": "Quyết Chiến",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.20000000663696, 20.499999996458662]}",
+    "Latitude": 20.499999996458662,
+    "Longitude": 106.20000000663696,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"QuyÕt ChiÕn\", \"descriptio\": \"QuyÕt ChiÕn    <br>       <br>   SHAPE   Multipoint    <br>   id   181    <br>   Ten   QuyÕt ChiÕn    <br>   Toa_DoX   106.2    <br>   Toa_DoY   20.5\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "b9b6b99f-347a-5bbd-9387-d52180634689",
+    "MaTram": "178",
+    "TenTram": "Nhâm Lang",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.20000000671776, 20.63333299642059]}",
+    "Latitude": 20.63333299642059,
+    "Longitude": 106.20000000671776,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"Nh©m Lang\", \"descriptio\": \"Nh©m Lang    <br>       <br>   SHAPE   Multipoint    <br>   id   178    <br>   Ten   Nh©m Lang    <br>   Toa_DoX   106.2    <br>   Toa_DoY   20.63\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "34d4834d-8c3c-520b-b9f4-f224d01861ba",
+    "MaTram": "177",
+    "TenTram": "Triều Dương",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.11666700680668, 20.649999996377574]}",
+    "Latitude": 20.649999996377574,
+    "Longitude": 106.11666700680668,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"TriÒu D­¬ng\", \"descriptio\": \"TriÒu D¬ng    <br>       <br>   SHAPE   Multipoint    <br>   id   177    <br>   Ten   TriÒu D¬ng    <br>   Toa_DoX   106.12    <br>   Toa_DoY   20.65\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "f722561c-5237-5ba9-b7ca-0c3178ef10a9",
+    "MaTram": "92",
+    "TenTram": "Ba Lạt",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.51666700622673, 20.316666996658306]}",
+    "Latitude": 20.316666996658306,
+    "Longitude": 106.51666700622673,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"Ba L¹t\", \"descriptio\": \"Ba L¹t    <br>       <br>   SHAPE   Multipoint    <br>   id   92    <br>   Ten   Ba L¹t    <br>   Toa_DoX   106.52    <br>   Toa_DoY   20.32\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "a832422a-2646-57cb-93f6-b8238a5ea096",
+    "MaTram": "91",
+    "TenTram": "Vũ Thuận",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.31666700644595, 20.366666996550865]}",
+    "Latitude": 20.366666996550865,
+    "Longitude": 106.31666700644595,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"Vò ThuËn\", \"descriptio\": \"Vò ThuËn    <br>       <br>   SHAPE   Multipoint    <br>   id   91    <br>   Ten   Vò ThuËn    <br>   Toa_DoX   106.32    <br>   Toa_DoY   20.37\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "7dfae029-4a95-58a5-bc68-12ff1153b457",
+    "MaTram": "86",
+    "TenTram": "Bảo Châu",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.05000000684952, 20.616666996356464]}",
+    "Latitude": 20.616666996356464,
+    "Longitude": 106.05000000684952,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"B¶o Ch©u\", \"descriptio\": \"B¶o Ch©u    <br>       <br>   SHAPE   Multipoint    <br>   id   86    <br>   Ten   B¶o Ch©u    <br>   Toa_DoX   106.05    <br>   Toa_DoY   20.62\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  },
+  {
+    "Id": "30c05dde-cb95-5a84-bb17-e183d44eb6e5",
+    "MaTram": "85",
+    "TenTram": "Hưng Yên",
+    "ToaDo": "{\"type\": \"Point\", \"coordinates\": [106.05000000686975, 20.649999996347006]}",
+    "Latitude": 20.649999996347006,
+    "Longitude": 106.05000000686975,
+    "NguonDuLieu": "TRAM_THUY_VAN.shp",
+    "ThuocTinhNguon": "{\"id\": \"\", \"Name\": \"H­ng Yªn\", \"descriptio\": \"Hng Yªn    <br>       <br>   SHAPE   Multipoint    <br>   id   85    <br>   Ten   Hng Yªn    <br>   Toa_DoX   106.05    <br>   Toa_DoY   20.65\", \"timestamp\": \"\", \"begin\": \"\", \"end\": \"\", \"altitudeMo\": \"\", \"tessellate\": \"        -1\", \"extrude\": \"         0\", \"visibility\": \"        -1\", \"drawOrder\": \"**********\", \"icon\": \"\"}"
+  }
+]
