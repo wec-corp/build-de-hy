@@ -1,0 +1,3090 @@
+[
+  {
+    "key": "de-song",
+    "title": "Đê sông",
+    "sourceSheet": "1. H - Song",
+    "headerStart": 5,
+    "headerEnd": 8,
+    "firstRow": 11,
+    "lastColumn": 27,
+    "firstColumn": 1,
+    "entity": "DoanDeSongThongKe",
+    "table": "De_DoanDeSongThongKe",
+    "parentEntity": "DoanDe",
+    "route": "/hien-trang/de",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDeSong",
+        "label": "Tuyến đê sông",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKm",
+        "label": "Vị trí / Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDViTriKm",
+        "label": "Vị trí / Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEDiaDanh",
+        "label": "Địa danh",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGChieuDaiKm",
+        "label": "Chiều dài (km)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHCaoTrinhMMatDe",
+        "label": "Cao trình (m) / Mặt đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlICaoTrinhMMatTrach",
+        "label": "Cao trình (m) / Mặt trạch",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJCaoTrinhMMntk",
+        "label": "Cao trình (m) / MNTK",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKCaoTrinhMChenhCaoMatDeTrachCaoTrinhDeTk",
+        "label": "Cao trình (m) / Chênh cao (Mặt đê/ trạch - Cao trình đê TK)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLKichThuocMatCatNgangDeHienTaiBeRongMatDeM",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Bề rộng mặt đê (m)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMKichThuocMatCatNgangDeHienTaiMaiDePhiaSong",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía sông",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNKichThuocMatCatNgangDeHienTaiMaiDePhiaDong",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía đồng",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOKichThuocMatCatNgangDeHienTaiChieuCaoDeM",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Chiều cao đê (m)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPKichThuocMatCatNgangDeHienTaiCoDeChieuRongCoTlM",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Cơ đê / Chiều rộng cơ TL (m)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "Q",
+        "index": 17,
+        "field": "PlQKichThuocMatCatNgangDeHienTaiCoDeChieuRongCoHlM",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Cơ đê / Chiều rộng cơ HL (m)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "R",
+        "index": 18,
+        "field": "PlRDanhGiaCaoTrinh",
+        "label": "Đánh giá cao trình",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "S",
+        "index": 19,
+        "field": "PlSDai",
+        "label": "Dài",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "T",
+        "index": 20,
+        "field": "PlTThap",
+        "label": "Thâp",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "U",
+        "index": 21,
+        "field": "PlUCo",
+        "label": "cơ",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "V",
+        "index": 22,
+        "field": "PlVDeTren5mCoCo",
+        "label": "đê trên 5m có cơ",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "W",
+        "index": 23,
+        "field": "PlWChuaPc",
+        "label": "chưa pc",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "X",
+        "index": 24,
+        "field": "PlXCap3Nho5",
+        "label": "cấp 3 nhỏ 5",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "Y",
+        "index": 25,
+        "field": "PlYCap2Nho6",
+        "label": "cấp 2 nhỏ 6",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "Z",
+        "index": 26,
+        "field": "PlZCap1Nho68",
+        "label": "cấp 1 nhỏ (6-8)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "AA",
+        "index": 27,
+        "field": "PlAA68",
+        "label": "(6-8)",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/de-song/rows",
+    "templatePath": "/de-dieu-pctt/datasets/de-song/template"
+  },
+  {
+    "key": "de-boi",
+    "title": "Đê bối",
+    "sourceSheet": "15. De boi",
+    "headerStart": 4,
+    "headerEnd": 7,
+    "firstRow": 9,
+    "lastColumn": 17,
+    "firstColumn": 1,
+    "entity": "DoanDeBoiThongKe",
+    "table": "De_DoanDeBoiThongKe",
+    "parentEntity": "DoanDe",
+    "route": "/hien-trang/de",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDeBoi",
+        "label": "Tuyến đê bối",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDDiaDanh",
+        "label": "Địa danh",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEChieuDaiKm",
+        "label": "Chiều dài (km)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFTuongUngVoiKmDeChinh",
+        "label": "Tương ứng với Km đê chính",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHCaoTrinhMat",
+        "label": "Cao trình mặt",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIHienTrangMat",
+        "label": "Hiện trạng mặt",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJHeSoMai",
+        "label": "Hệ số mái",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKDienTichSoDanDuocDeBoiBaoVe",
+        "label": "Diện tích, số dân được đê bối bảo vệ",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLDanhGia",
+        "label": "Đánh giá",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMCotMNguon",
+        "label": "Cột M (nguồn)",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNCotNNguon",
+        "label": "Cột N (nguồn)",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOCotONguon",
+        "label": "Cột O (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPDt",
+        "label": "DT",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "Q",
+        "index": 17,
+        "field": "PlQDs",
+        "label": "DS",
+        "valueType": "number",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/de-boi/rows",
+    "templatePath": "/de-dieu-pctt/datasets/de-boi/template"
+  },
+  {
+    "key": "de-cua-song",
+    "title": "Đê cửa sông",
+    "sourceSheet": "2. H - Bien",
+    "headerStart": 5,
+    "headerEnd": 7,
+    "firstRow": 11,
+    "lastColumn": 15,
+    "firstColumn": 1,
+    "entity": "DoanDeCuaSongThongKe",
+    "table": "De_DoanDeCuaSongThongKe",
+    "parentEntity": "DoanDe",
+    "route": "/hien-trang/de",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDeBienDeCuaSong",
+        "label": "Tuyến đê biển, đê cửa sông",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlECaoTrinhMMatDe",
+        "label": "Cao trình (m) / Mặt đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFCaoTrinhMTuongTrach",
+        "label": "Cao trình (m) / Tường/ trạch",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGCaoTrinhMChenhCaoMatDeTrachTuongCttk",
+        "label": "Cao trình (m) / Chênh cao (Mặt đê/ trạch/tường - CTTK)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHKichThuocMatCatNgangDeHienTaiBeRongMatDeM",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Bề rộng mặt đê (m)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIKichThuocMatCatNgangDeHienTaiMaiDePhiaBienHeSoMai",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía biển / Hệ số mái",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJKichThuocMatCatNgangDeHienTaiMaiDePhiaBienKetCau",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía biển / Kết cấu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKKichThuocMatCatNgangDeHienTaiMaiDePhiaDongHeSoMai",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía đồng / Hệ số mái",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLKichThuocMatCatNgangDeHienTaiMaiDePhiaDongKetCau",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía đồng / Kết cấu",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMDanhGiaKhaNangChongBao",
+        "label": "Đánh giá khả năng chống bão",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNCotNNguon",
+        "label": "Cột N (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOThap",
+        "label": "Thấp",
+        "valueType": "number",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/de-cua-song/rows",
+    "templatePath": "/de-dieu-pctt/datasets/de-cua-song/template"
+  },
+  {
+    "key": "de-bien",
+    "title": "Đê biển",
+    "sourceSheet": "2. H - Bien",
+    "headerStart": 5,
+    "headerEnd": 7,
+    "firstRow": 11,
+    "lastColumn": 15,
+    "firstColumn": 1,
+    "entity": "DoanDeBienThongKe",
+    "table": "De_DoanDeBienThongKe",
+    "parentEntity": "DoanDe",
+    "route": "/hien-trang/de",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDeBienDeCuaSong",
+        "label": "Tuyến đê biển, đê cửa sông",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlECaoTrinhMMatDe",
+        "label": "Cao trình (m) / Mặt đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFCaoTrinhMTuongTrach",
+        "label": "Cao trình (m) / Tường/ trạch",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGCaoTrinhMChenhCaoMatDeTrachTuongCttk",
+        "label": "Cao trình (m) / Chênh cao (Mặt đê/ trạch/tường - CTTK)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHKichThuocMatCatNgangDeHienTaiBeRongMatDeM",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Bề rộng mặt đê (m)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIKichThuocMatCatNgangDeHienTaiMaiDePhiaBienHeSoMai",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía biển / Hệ số mái",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJKichThuocMatCatNgangDeHienTaiMaiDePhiaBienKetCau",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía biển / Kết cấu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKKichThuocMatCatNgangDeHienTaiMaiDePhiaDongHeSoMai",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía đồng / Hệ số mái",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLKichThuocMatCatNgangDeHienTaiMaiDePhiaDongKetCau",
+        "label": "Kích thước mặt cắt ngang đê hiện tại / Mái đê phía đồng / Kết cấu",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMDanhGiaKhaNangChongBao",
+        "label": "Đánh giá khả năng chống bão",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNCotNNguon",
+        "label": "Cột N (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOThap",
+        "label": "Thấp",
+        "valueType": "number",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/de-bien/rows",
+    "templatePath": "/de-dieu-pctt/datasets/de-bien/template"
+  },
+  {
+    "key": "cua-khau",
+    "title": "Cửa khẩu",
+    "sourceSheet": "14. Cua khau",
+    "headerStart": 3,
+    "headerEnd": 4,
+    "firstRow": 10,
+    "lastColumn": 13,
+    "firstColumn": 1,
+    "entity": "CuaKhauThongKe",
+    "table": "De_CuaKhauThongKe",
+    "parentEntity": "CuaKhau",
+    "route": "/hien-trang/de",
+    "routeColumn": "C",
+    "positionColumn": "D",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTenCuaKhau",
+        "label": "Tên cửa khẩu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDViTriKm",
+        "label": "Vị trí Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEHinhThucKetCau",
+        "label": "Hình thức, kết cấu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFHienTrangCuaKhau",
+        "label": "Hiện trạng cửa khẩu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGTinhTrangPhai",
+        "label": "Tình trạng phai",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHDonViChiuTrachNhiemQuanLyVanHanhTrongMuaLu",
+        "label": "Đơn vị chịu trách nhiệm quản lý, vận hành trong mùa lũ",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIDanhGia",
+        "label": "Đánh giá",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJCotJNguon",
+        "label": "Cột J (nguồn)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKTot",
+        "label": "Tốt",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLSuaChua",
+        "label": "sửa chữa",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMLamMoi",
+        "label": "làm mới",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/cua-khau/rows",
+    "templatePath": "/de-dieu-pctt/datasets/cua-khau/template"
+  },
+  {
+    "key": "diem-canh",
+    "title": "Điếm canh",
+    "sourceSheet": "13. Diem",
+    "headerStart": 4,
+    "headerEnd": 6,
+    "firstRow": 9,
+    "lastColumn": 14,
+    "firstColumn": 1,
+    "entity": "DiemCanhThongKe",
+    "table": "De_DiemCanhThongKe",
+    "parentEntity": "DiemCanhDe",
+    "route": "/hien-trang/de",
+    "routeColumn": "C",
+    "positionColumn": "D",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTenDiemCanhDe",
+        "label": "Tên điếm canh đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDViTriKm",
+        "label": "Vị trí Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlECapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFDiaDanh",
+        "label": "Địa danh",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGKetCau",
+        "label": "Kết cấu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHNamXayDungTuBo",
+        "label": "Năm xây dựng/ tu bổ",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIHienTrang",
+        "label": "Hiện trạng",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJDanhGia",
+        "label": "Đánh giá",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKTot",
+        "label": "Tốt",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLCanLamMoi",
+        "label": "Cần làm mới",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMCanSuaChua",
+        "label": "Cần sửa chữa",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNDangThiCong",
+        "label": "Đang thi công",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/diem-canh/rows",
+    "templatePath": "/de-dieu-pctt/datasets/diem-canh/template"
+  },
+  {
+    "key": "ke",
+    "title": "Kè",
+    "sourceSheet": "11. Ke",
+    "headerStart": 4,
+    "headerEnd": 8,
+    "firstRow": 11,
+    "lastColumn": 22,
+    "firstColumn": 1,
+    "entity": "KeThongKe",
+    "table": "De_KeThongKe",
+    "parentEntity": "Ke",
+    "route": "/hien-trang/ke",
+    "routeColumn": "C",
+    "positionColumn": "D",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTenKe",
+        "label": "Tên kè",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEChieuDaiKm",
+        "label": "Chiều dài (km)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFDiaDanh",
+        "label": "Địa danh",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGLoaiKe",
+        "label": "Loại kè",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHKetCau",
+        "label": "Kết cấu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIHienTrang",
+        "label": "Hiện trạng",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJDanhGia",
+        "label": "Đánh giá",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKLatMaiTong",
+        "label": "Lát mái / Tổng",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLLatMaiKm",
+        "label": "Lát mái / KM",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMLatMaiSl",
+        "label": "Lát mái / SL",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNLatMaiOnDinh",
+        "label": "Lát mái / Ổn định",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOLatMaiSl",
+        "label": "Lát mái / SL",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPLatMaiTheoDoiCanTheoDoi",
+        "label": "Lát mái / Theo dõi / cần theo dõi",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "Q",
+        "index": 17,
+        "field": "PlQLatMai",
+        "label": "Lát mái",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "R",
+        "index": 18,
+        "field": "PlRLatMaiSuaChuaCanSuaChua",
+        "label": "Lát mái / sửa chữa / Cần sửa chữa",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "S",
+        "index": 19,
+        "field": "PlSLatMai",
+        "label": "Lát mái",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "T",
+        "index": 20,
+        "field": "PlTLatMaiDangThiCongDangThiCong",
+        "label": "Lát mái / đang thi công / Đang thi công",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "U",
+        "index": 21,
+        "field": "PlUKeMoSl",
+        "label": "Kè Mỏ / SL",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "V",
+        "index": 22,
+        "field": "PlVKeMoSoMo",
+        "label": "Kè Mỏ / số mỏ",
+        "valueType": "number",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/ke/rows",
+    "templatePath": "/de-dieu-pctt/datasets/ke/template"
+  },
+  {
+    "key": "cong",
+    "title": "Cống",
+    "sourceSheet": "12. Cong",
+    "headerStart": 5,
+    "headerEnd": 6,
+    "firstRow": 11,
+    "lastColumn": 21,
+    "firstColumn": 1,
+    "entity": "CongThongKe",
+    "table": "De_CongThongKe",
+    "parentEntity": "Cong",
+    "route": "/hien-trang/cong",
+    "routeColumn": "C",
+    "positionColumn": "D",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTenCong",
+        "label": "Tên cống",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDViTriKm",
+        "label": "Vị trí Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEDiaDanh",
+        "label": "Địa danh",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFKichThuoc",
+        "label": "Kích thước",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGLoaiCong",
+        "label": "Loại cống",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHHinhThucKetCau",
+        "label": "Hình thức, kết cấu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlINamXayDung",
+        "label": "Năm xây dựng",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJNamTuSua",
+        "label": "Năm tu sửa",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKBoPhanTuSua",
+        "label": "Bộ phận tu sửa",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLHienTrangCong",
+        "label": "Hiện trạng cống",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMDanhGia",
+        "label": "Đánh giá",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNTong",
+        "label": "Tổng",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOTot",
+        "label": "Tốt",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPSuaChua",
+        "label": "sửa chữa",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "Q",
+        "index": 17,
+        "field": "PlQCanLamMoi",
+        "label": "cần làm mới",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "R",
+        "index": 18,
+        "field": "PlRDangThiCong",
+        "label": "Đang thi cong",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "S",
+        "index": 19,
+        "field": "PlSTheoDoiDaLapHoanhTriet",
+        "label": "Theo dõi, đã lấp, hoành triệt",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "T",
+        "index": 20,
+        "field": "PlTDaLapHoanhTriet",
+        "label": "Đã lấp, hoành triệt",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "U",
+        "index": 21,
+        "field": "PlUPhaiDuPhong",
+        "label": "Phai dự phòng",
+        "valueType": "number",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/cong/rows",
+    "templatePath": "/de-dieu-pctt/datasets/cong/template"
+  },
+  {
+    "key": "mat-de",
+    "title": "Mặt đê",
+    "sourceSheet": "4. Mat de",
+    "headerStart": 5,
+    "headerEnd": 8,
+    "firstRow": 11,
+    "lastColumn": 20,
+    "firstColumn": 1,
+    "entity": "PLMatDe",
+    "table": "De_PLMatDe",
+    "parentEntity": null,
+    "route": "/hien-trang/mat-de",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKm",
+        "label": "Vị trí / Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDViTriKm",
+        "label": "Vị trí / Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlECapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFChieuDaiKm",
+        "label": "Chiều dài (km)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGMatDeChieuRongM",
+        "label": "Mặt đê / Chiều rộng (m)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHMatDeChieuRongPhanGiaCoM",
+        "label": "Mặt đê / Chiều rộng phần gia cố (m)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIDanhGiaHienTrang",
+        "label": "Đánh giá hiện trạng",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJCotJNguon",
+        "label": "Cột J (nguồn)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKCotKNguon",
+        "label": "Cột K (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLNhua",
+        "label": "Nhựa",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMCotMNguon",
+        "label": "Cột M (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNBeTong",
+        "label": "Bê tông",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOCotONguon",
+        "label": "Cột O (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPCp",
+        "label": "CP",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "Q",
+        "index": 17,
+        "field": "PlQCotQNguon",
+        "label": "Cột Q (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "R",
+        "index": 18,
+        "field": "PlRDat",
+        "label": "Đất",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "S",
+        "index": 19,
+        "field": "PlSCotSNguon",
+        "label": "Cột S (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "T",
+        "index": 20,
+        "field": "PlTTong",
+        "label": "Tổng",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/mat-de/rows",
+    "templatePath": "/de-dieu-pctt/datasets/mat-de/template"
+  },
+  {
+    "key": "hanh-lang-de",
+    "title": "Hành lang đê",
+    "sourceSheet": "5. Duong hanh lang",
+    "headerStart": 5,
+    "headerEnd": 8,
+    "firstRow": 11,
+    "lastColumn": 18,
+    "firstColumn": 1,
+    "entity": "PLHanhLangDe",
+    "table": "De_PLHanhLangDe",
+    "parentEntity": null,
+    "route": "/hien-trang/hanh-lang-de",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlAStt",
+        "label": "STT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEChieuDaiKm",
+        "label": "Chiều dài (km)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFHanhLangChanDePhiaDongChieuRongM",
+        "label": "Hành lang chân đê / Phía đồng / Chiều rộng (m)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGHanhLangChanDePhiaDongKetCau",
+        "label": "Hành lang chân đê / Phía đồng / Kết cấu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHHanhLangChanDePhiaSongChieuRongM",
+        "label": "Hành lang chân đê / Phía sông / Chiều rộng (m)",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIHanhLangChanDePhiaSongKetCau",
+        "label": "Hành lang chân đê / Phía sông / Kết cấu",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJDanhGiaHienTrang",
+        "label": "Đánh giá hiện trạng",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKCotKNguon",
+        "label": "Cột K (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLTong",
+        "label": "Tổng",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMCap3TroLen",
+        "label": "cấp 3 trở lên",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNCapIv",
+        "label": "Cấp IV",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOCotONguon",
+        "label": "Cột O (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPNhua",
+        "label": "nhựa",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "Q",
+        "index": 17,
+        "field": "PlQBeTong",
+        "label": "bê tông",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "R",
+        "index": 18,
+        "field": "PlRCapPhoiDat",
+        "label": "cấp phối, đất",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/hanh-lang-de/rows",
+    "templatePath": "/de-dieu-pctt/datasets/hanh-lang-de/template"
+  },
+  {
+    "key": "cay-chan-song",
+    "title": "Cây chắn sóng",
+    "sourceSheet": "3. Tre",
+    "headerStart": 5,
+    "headerEnd": 7,
+    "firstRow": 11,
+    "lastColumn": 13,
+    "firstColumn": 1,
+    "entity": "PLCayChanSong",
+    "table": "De_PLCayChanSong",
+    "parentEntity": null,
+    "route": "/hien-trang/cay-chan-song",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEChieuDaiKm",
+        "label": "Chiều dài (km)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFDaDuocTrongDaPhatHuyTacDung",
+        "label": "Đã được trồng / Đã phát huy tác dụng",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGDaDuocTrongChuaPhatHuyTacDung",
+        "label": "Đã được trồng / Chưa phát huy tác dụng",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHChuaDuocTrong",
+        "label": "Chưa được trồng",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIKhongTheTrongDuoc",
+        "label": "Không thể trồng được",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJPhatHuy",
+        "label": "Phát huy",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKChuaPhatHuy",
+        "label": "Chưa phat huy",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLKoTrong",
+        "label": "Ko trồng",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMChuaTrong",
+        "label": "chưa trồng",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/cay-chan-song/rows",
+    "templatePath": "/de-dieu-pctt/datasets/cay-chan-song/template"
+  },
+  {
+    "key": "than-nen-de",
+    "title": "Thân đê, nền đê trước lũ",
+    "sourceSheet": "7. TL-RR-ST",
+    "headerStart": 5,
+    "headerEnd": 6,
+    "firstRow": 11,
+    "lastColumn": 16,
+    "firstColumn": 1,
+    "entity": "PLThanNenDe",
+    "table": "De_PLThanNenDe",
+    "parentEntity": null,
+    "route": "/hien-trang/than-nen-de",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEChieuDaiKm",
+        "label": "Chiều dài (km)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFThoiGianXuatHien",
+        "label": "Thời gian xuất hiện",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGViTriXuatHien",
+        "label": "Vị trí xuất hiện",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHKichThuocVaMucThamLauRoRiSatTruot",
+        "label": "Kích thước và mức thẩm lậu, rò rỉ, sạt trượt",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIMucNuocSongKhiBiThamLauRoRi",
+        "label": "Mực nước sông khi bị thẩm lậu, rò rỉ",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJKetQuaXuLy",
+        "label": "Kết quả xử lý",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKDanhGia",
+        "label": "Đánh giá",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLCotLNguon",
+        "label": "Cột L (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMTheoDoi",
+        "label": "Theo dõi",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNAnToan",
+        "label": "an toàn",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOCanXl",
+        "label": "Cần xl",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPTong",
+        "label": "Tổng",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/than-nen-de/rows",
+    "templatePath": "/de-dieu-pctt/datasets/than-nen-de/template"
+  },
+  {
+    "key": "vat-tu",
+    "title": "Vật tư",
+    "sourceSheet": "19. Vật tư",
+    "headerStart": 3,
+    "headerEnd": 7,
+    "firstRow": 8,
+    "lastColumn": 25,
+    "firstColumn": 1,
+    "entity": "KhoVatTuThongKe",
+    "table": "De_KhoVatTuThongKe",
+    "parentEntity": "KhoVatTu",
+    "route": "/vat-tu-xung-yeu/vat-tu",
+    "routeColumn": "B",
+    "positionColumn": "D",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCTenKhoBai",
+        "label": "Tên kho, bãi",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDViTriKm",
+        "label": "Vị trí (Km)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEXaPhuong",
+        "label": "Xã, phường",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFDacDiemNgoaiTroiHoacTrongNha",
+        "label": "Đặc điểm (ngoài trời hoặc trong nhà)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGVatTuTruyenThongDaHocM3Tw",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Đá hộc / (m3) / TW",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHVatTuTruyenThongDaHocM3Dp",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Đá hộc / (m3) / ĐP",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIVatTuTruyenThongBaoNiLongChiecTw",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Bao ni lông / (chiếc) / TW",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJVatTuTruyenThongBaoNiLongChiecDp",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Bao ni lông / (chiếc) / ĐP",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKVatTuTruyenThongRoThepChiecTw",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Rọ thép / (chiếc) / TW",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLVatTuTruyenThongRoThepChiecDp",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Rọ thép / (chiếc) / ĐP",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMVatTuTruyenThongDaDamM3Tw",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Đá dăm / (m3) / TW",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNVatTuTruyenThongDaDamM3Dp",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Đá dăm / (m3) / ĐP",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOVatTuTruyenThongCatVangM3Tw",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Cát vàng / (m3) / TW",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPVatTuTruyenThongCatVangM3Dp",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Cát vàng / (m3) / ĐP",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "Q",
+        "index": 17,
+        "field": "PlQVatTuTruyenThongVaiLocM2Tw",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Vải lọc / (m2) / TW",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "R",
+        "index": 18,
+        "field": "PlRVatTuTruyenThongVaiLocM2Dp",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Vải lọc / (m2) / ĐP",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "S",
+        "index": 19,
+        "field": "PlSVatTuTruyenThongDayThepKgTw",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Dây thép / (Kg) / TW",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "T",
+        "index": 20,
+        "field": "PlTVatTuTruyenThongDayThepKgDp",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Dây thép / (Kg) / ĐP",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "U",
+        "index": 21,
+        "field": "PlUVatTuTruyenThongBatChanSongM2Tw",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Bạt chắn / sóng (m2) / TW",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "V",
+        "index": 22,
+        "field": "PlVVatTuTruyenThongBatChanSongM2Dp",
+        "label": "VẬT TƯ TRUYỀN THỐNG / Bạt chắn / sóng (m2) / ĐP",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "W",
+        "index": 23,
+        "field": "PlWVatTuLoaiMoiBaoTaiJumboSongCaiSoLuong",
+        "label": "VẬT TƯ LOẠI MỚI / Bao tải Jumbo / sóng (cái) / Số lượng",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "X",
+        "index": 24,
+        "field": "PlXVatTuLoaiMoiBaoTaiJumboSongCaiKichThuocBxhxlM",
+        "label": "VẬT TƯ LOẠI MỚI / Bao tải Jumbo / sóng (cái) / Kích thước bxhxl (m)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "Y",
+        "index": 25,
+        "field": "PlYVatTuLoaiMoiBatChongThamMangHdpeSoLuongM2",
+        "label": "VẬT TƯ LOẠI MỚI / Bạt chống thấm (Màng HDPE) / Số lượng (m2)",
+        "valueType": "number",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/vat-tu/rows",
+    "templatePath": "/de-dieu-pctt/datasets/vat-tu/template"
+  },
+  {
+    "key": "trong-diem",
+    "title": "Trọng điểm xung yếu",
+    "sourceSheet": "18. TRONG DIEM",
+    "headerStart": 4,
+    "headerEnd": 5,
+    "firstRow": 8,
+    "lastColumn": 18,
+    "firstColumn": 1,
+    "entity": "PLTrongDiem",
+    "table": "De_PLTrongDiem",
+    "parentEntity": null,
+    "route": "/vat-tu-xung-yeu/trong-diem-su-co",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKmTenCongTrinh",
+        "label": "Vị trí Km-Km/Tên công trình",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEDiaDanh",
+        "label": "Địa danh",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFNoiDungXacDinhTrongDiem",
+        "label": "Nội dung xác định trọng điểm",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGLoaiTrongDiem",
+        "label": "Loại trọng điểm",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHViTriTrongDiemToaDoWgs84ViDo",
+        "label": "Vị trí trọng điểm (Tọa độ WGS-84) / Vĩ độ",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIViTriTrongDiemToaDoWgs84KinhDo",
+        "label": "Vị trí trọng điểm (Tọa độ WGS-84) / Kinh độ",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJCotJNguon",
+        "label": "Cột J (nguồn)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKCotKNguon",
+        "label": "Cột K (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLCotLNguon",
+        "label": "Cột L (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMCotMNguon",
+        "label": "Cột M (nguồn)",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNCapXa",
+        "label": "cấp xã",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOCapTinh",
+        "label": "cấp tỉnh",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPDeCapIv",
+        "label": "Đê cấp IV",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "Q",
+        "index": 17,
+        "field": "PlQDeBienCs",
+        "label": "Đê biển, cs",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "R",
+        "index": 18,
+        "field": "PlRPhuongAnBaoVe",
+        "label": "Phương án bảo vệ",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/trong-diem/rows",
+    "templatePath": "/de-dieu-pctt/datasets/trong-diem/template"
+  },
+  {
+    "key": "su-co",
+    "title": "Sự cố",
+    "sourceSheet": "21. Su co",
+    "headerStart": 4,
+    "headerEnd": 4,
+    "firstRow": 6,
+    "lastColumn": 17,
+    "firstColumn": 1,
+    "entity": "SuCoThongKe",
+    "table": "De_SuCoThongKe",
+    "parentEntity": "SuCoDe",
+    "route": "/vat-tu-xung-yeu/trong-diem-su-co",
+    "routeColumn": "F",
+    "positionColumn": "I",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTenSuCo",
+        "label": "Tên sự cố",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCPhanNhomSuCo",
+        "label": "Phân nhóm sự cố",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDThoiGianPhatHienXayRa",
+        "label": "Thời gian phát hiện/xảy ra",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEDiaDanhXaPhuong",
+        "label": "Địa danh (xã, phường)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGLoaiDe",
+        "label": "Loại đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIKm",
+        "label": "Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJKm",
+        "label": "-Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKChieuDaiM",
+        "label": "Chiều dài (m)",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLDienBienSuCo",
+        "label": "Diễn biến sự cố",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMDanhGiaNguyenNhanXayRaSuCo",
+        "label": "Đánh giá nguyên nhân xảy ra sự cố",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNCongTacChiDaoBienPhapXuLy",
+        "label": "Công tác chỉ đạo, biện pháp xử lý",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "O",
+        "index": 15,
+        "field": "PlOKetQuaXuLy",
+        "label": "Kết quả xử lý",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "P",
+        "index": 16,
+        "field": "PlPDeXuatKienNghi",
+        "label": "Đề xuất, kiến nghị",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "Q",
+        "index": 17,
+        "field": "PlQBaoCaoCuaDp",
+        "label": "Báo cáo của ĐP",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/su-co/rows",
+    "templatePath": "/de-dieu-pctt/datasets/su-co/template"
+  },
+  {
+    "key": "mach-dun-sui",
+    "title": "Mạch đùn, mạch sủi",
+    "sourceSheet": "6. Dun sui",
+    "headerStart": 5,
+    "headerEnd": 7,
+    "firstRow": 9,
+    "lastColumn": 11,
+    "firstColumn": 1,
+    "entity": "PLMachDunSui",
+    "table": "De_PLMachDunSui",
+    "parentEntity": null,
+    "route": "/vat-tu-xung-yeu/mach-dun-sui",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEThoiGianXuatHien",
+        "label": "Thời gian xuất hiện",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFViTriSoVoiChanDe",
+        "label": "Vị trí so với chân đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGKichThuocVaMucDoSui",
+        "label": "Kích thước và mức độ sủi",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHMucNuocKhiXayRaDunSui",
+        "label": "Mực nước khi xảy ra đùn, sủi",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIKetQuaXuLy",
+        "label": "Kết quả xử lý",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJDanhGia",
+        "label": "Đánh giá",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKTong",
+        "label": "Tổng",
+        "valueType": "number",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/mach-dun-sui/rows",
+    "templatePath": "/de-dieu-pctt/datasets/mach-dun-sui/template"
+  },
+  {
+    "key": "moi",
+    "title": "Mối",
+    "sourceSheet": "8. Moi",
+    "headerStart": 5,
+    "headerEnd": 7,
+    "firstRow": 10,
+    "lastColumn": 12,
+    "firstColumn": 1,
+    "entity": "PLMoi",
+    "table": "De_PLMoi",
+    "parentEntity": null,
+    "route": "/vat-tu-xung-yeu/moi",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEViTriSoVoiMatDe",
+        "label": "Vị trí so với mặt đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFDaDuocXuLyThuongXuyen",
+        "label": "Đã được xử lý thường xuyên",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGChuaDuocXuLy",
+        "label": "Chưa được xử lý",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHDanhGia",
+        "label": "Đánh giá",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlITong",
+        "label": "Tổng",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJAt",
+        "label": "at",
+        "valueType": "number",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKCanXl",
+        "label": "cần xl",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLTheoDoi",
+        "label": "theo dõi",
+        "valueType": "number",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/moi/rows",
+    "templatePath": "/de-dieu-pctt/datasets/moi/template"
+  },
+  {
+    "key": "dam-ao",
+    "title": "Đầm ao",
+    "sourceSheet": "9. Dam ao",
+    "headerStart": 5,
+    "headerEnd": 7,
+    "firstRow": 10,
+    "lastColumn": 14,
+    "firstColumn": 1,
+    "entity": "PLDamAo",
+    "table": "De_PLDamAo",
+    "parentEntity": null,
+    "route": "/vat-tu-xung-yeu/dam-ao",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriKmKm",
+        "label": "Vị trí Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlEChieuDaiKm",
+        "label": "Chiều dài (km)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFPhiaDong",
+        "label": "Phía đồng",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGPhiaSong",
+        "label": "Phía sông",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHChieuRongDamAo",
+        "label": "Chiều rộng đầm, ao",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIChieuSauDamAo",
+        "label": "Chiều sâu đầm, ao",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJDanhGia",
+        "label": "Đánh giá",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKTong",
+        "label": "Tông",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLTheoDoi",
+        "label": "Theo doi",
+        "valueType": "text",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMCanXl",
+        "label": "cần XL",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNAt",
+        "label": "AT",
+        "valueType": "number",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/dam-ao/rows",
+    "templatePath": "/de-dieu-pctt/datasets/dam-ao/template"
+  },
+  {
+    "key": "de-sat-song",
+    "title": "Đê sát sông",
+    "sourceSheet": "10. De sat song",
+    "headerStart": 5,
+    "headerEnd": 6,
+    "firstRow": 8,
+    "lastColumn": 14,
+    "firstColumn": 1,
+    "entity": "PLDeSatSong",
+    "table": "De_PLDeSatSong",
+    "parentEntity": null,
+    "route": "/vat-tu-xung-yeu/de-sat-song",
+    "routeColumn": "B",
+    "positionColumn": "C",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "A",
+        "index": 1,
+        "field": "PlATt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "B",
+        "index": 2,
+        "field": "PlBTuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "C",
+        "index": 3,
+        "field": "PlCViTriDeSatSongKmKm",
+        "label": "Vị trí đê sát sông Km - Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDDiaDanh",
+        "label": "Địa danh",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlECapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFDaDuocXayDungKeTenKe",
+        "label": "Đã được xây dựng kè / Tên kè",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGDaDuocXayDungKeKhoangCachKeDenChanDeM",
+        "label": "Đã được xây dựng kè / Khoảng cách kè đến chân đê (m)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHDaDuocXayDungKeDanhGia",
+        "label": "Đã được xây dựng kè / Đánh giá",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIChuaDuocXayDungKeKhoangCachBoSongDenChanDeM",
+        "label": "Chưa được xây dựng kè / Khoảng cách bờ sông đến chân đê (m)",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJChuaDuocXayDungKeDanhGia",
+        "label": "Chưa được xây dựng kè / Đánh giá",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKOnDinh",
+        "label": "ổn định",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLPhaiXayDung",
+        "label": "phải xây dựng",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "M",
+        "index": 13,
+        "field": "PlMTheoDoi",
+        "label": "theo dõi",
+        "valueType": "number",
+        "visible": false
+      },
+      {
+        "column": "N",
+        "index": 14,
+        "field": "PlNTong",
+        "label": "tổng",
+        "valueType": "text",
+        "visible": false
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/de-sat-song/rows",
+    "templatePath": "/de-dieu-pctt/datasets/de-sat-song/template"
+  },
+  {
+    "key": "tu-bo-de",
+    "title": "Tu bổ đê",
+    "sourceSheet": "16. Tu bo",
+    "headerStart": 7,
+    "headerEnd": 8,
+    "firstRow": 10,
+    "lastColumn": 12,
+    "firstColumn": 4,
+    "entity": "PLTuBoDe",
+    "table": "De_PLTuBoDe",
+    "parentEntity": null,
+    "route": "/vat-tu-xung-yeu/tu-bo-de",
+    "routeColumn": "E",
+    "positionColumn": "F",
+    "permission": "de-dieu-pctt",
+    "geometryEnabled": true,
+    "columns": [
+      {
+        "column": "D",
+        "index": 4,
+        "field": "PlDTt",
+        "label": "TT",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "E",
+        "index": 5,
+        "field": "PlETuyenDe",
+        "label": "Tuyến đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "F",
+        "index": 6,
+        "field": "PlFViTriKmKm",
+        "label": "Vị trí Km-Km",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "G",
+        "index": 7,
+        "field": "PlGCapDe",
+        "label": "Cấp đê",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "H",
+        "index": 8,
+        "field": "PlHDaDuocCungCoNangCapTruocKhiCoCacQd206858Va667",
+        "label": "Đã được củng cố, nâng cấp trước khi có các QĐ 2068, 58 và 667",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "I",
+        "index": 9,
+        "field": "PlIDaDuocCungCoNangCapTheoCacQd206858Va667",
+        "label": "Đã được củng cố, nâng cấp theo các QĐ 2068, 58 và 667",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "J",
+        "index": 10,
+        "field": "PlJDuocCungCoNangCapTheoKeHoachDauTuCongTrungHan",
+        "label": "Được củng cố, nâng cấp theo kế hoạch đầu tư công trung hạn",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "K",
+        "index": 11,
+        "field": "PlKChuaDuocCungCoNangCap",
+        "label": "Chưa được củng cố, nâng cấp",
+        "valueType": "text",
+        "visible": true
+      },
+      {
+        "column": "L",
+        "index": 12,
+        "field": "PlLDangDuocCungCoNangCap",
+        "label": "Đang được củng cố, nâng cấp",
+        "valueType": "text",
+        "visible": true
+      }
+    ],
+    "apiPath": "/de-dieu-pctt/datasets/tu-bo-de/rows",
+    "templatePath": "/de-dieu-pctt/datasets/tu-bo-de/template"
+  }
+]
