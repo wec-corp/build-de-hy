@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5381],{68625:function(c,a,e){var s=e(64836);a.Z=void 0;var u=s(e(33651)),v=e(85893);a.Z=(0,u.default)((0,v.jsx)("path",{d:"M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11z"}),"Videocam")}}]);
